@@ -1,0 +1,852 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="renderer" content="webkit"/>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/index.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.min.js"></script>
+
+    <style>
+        html, body {
+            position: relative;
+            height: 100%;
+        }
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color:#000;
+            margin: 0;
+            padding: 0;
+        }
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        .swiper-pagination-bullet{
+           background: #000;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <span class="close"><img src="images/close.png" alt=""></span>
+        <p class="logo">
+            <img src="images/logo.png" alt="">
+        </p>
+        <div class="load">
+            <p>下载手机客户端</p>
+            <p>首次登陆就送<span>188</span>元现金券 </p>
+        </div>
+        <p class="lingqu"><a href="">下载领取</a></p>
+    </header>
+    <div class="search">
+        <input type="text" placeholder="搜索商品">
+    </div>
+<!--banner-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/b1.jpg" alt=""></div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--360手机-->
+    <div class="tubiao">
+        <div class="tb">
+            <img src="images/1.png" alt="">
+            <span>360手机</span>
+        </div>
+        <div class="tb">
+            <img src="images/2.png" alt="">
+            <span>智品牌</span>
+        </div>
+        <div class="tb">
+            <img src="images/3.png" alt="">
+            <span>一元夺宝</span>
+        </div>
+        <div class="tb">
+            <img src="images/4.png" alt="">
+            <span>社区</span>
+        </div>
+    </div>
+    <!--智能头条-->
+    <div class="zhineng">
+        <div class="toutiao"><img src="images/zn.jpg" alt=""></div>
+        <div class="gund"></div>
+    </div>
+    <!--掌上抢-->
+    <div class="qiang-box">
+        <div class="q-top">
+            <span>掌上抢</span>
+            <span>惊爆价限时抢&gt;</span>
+        </div>
+        <div class="q-bottom">
+            <div class="btm-box">
+                <div class="pa">
+                    <p><img src="images/pa.jpg" alt=""></p>
+                    <p>PaPa口袋影院</p>
+                    <p>￥1299<span>￥1499</span></p>
+                </div>
+                <div class="pa">
+                    <p><img src="images/pa2.jpg" alt=""></p>
+                    <p>纽曼(Nineewm)S106耳挂式无线蓝牙耳机(黑色)</p>
+                    <p>￥99<span>￥159</span></p>
+                </div>
+                <div class="pa">
+                    <p><img src="images/pa3.jpg" alt=""></p>
+                    <p>ORICO S1智能便捷迷你移动电源(玫瑰金)</p>
+                    <p>￥59<span>￥99</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--明星单品-->
+    <div class="mingxindp">
+        <em>一</em>
+        <span>明星单品</span>
+        <em>一</em>
+    </div>
+    <!--大电池-->
+    <ul class="star">
+        <li class="phone">
+            <p class="ah">
+                <img src="images/xing.png" alt=""><span>5000mAh大电池</span>
+            </p>
+            <span class="phone-tu"><img src="images/1.webp" alt=""></span>
+            <p class="zhonglei">360手机N4s</p>
+            <p class="money">￥1199</p>
+        </li>
+        <li class="phone">
+            <p class="ah">
+                <img src="images/xing.png" alt="">
+                <span>聊天问答</span>
+            </p>
+            <span class="phone-tu"><img src="images/jiqiren.webp" alt=""></span>
+            <p class="zhonglei">360儿童机器人</p>
+            <p class="money">￥1499</p>
+        </li>
+    </ul>
+    <ul class="star">
+        <li class="phone">
+            <p class="ah">
+                <img src="images/xing.png" alt="">
+                <span>五妨保护</span>
+            </p>
+            <span class="phone-tu"><img src="images/huoji.webp" alt=""></span>
+            <p class="zhonglei">DM手机U盘64G</p>
+            <p class="money">￥129 <span>￥139</span><span>掌上抢`</span></p>
+        </li>
+        <li class="phone">
+            <p class="ah">
+                <img src="images/xing.png" alt="">
+                <span>佩戴不憋气</span>
+            </p>
+            <span class="phone-tu"><img src="images/lan.webp" alt=""></span>
+            <p class="zhonglei">原生态智能防雾霾儿童口罩</p>
+            <p class="money">￥365</p>
+        </li>
+    </ul>
+    <ul class="star">
+        <li class="phone">
+            <p class="ah">
+                <img src="images/xing.png" alt=""><span>陶瓷表圈</span>
+            </p>
+            <span class="phone-tu"><img src="images/biao.webp" alt=""></span>
+            <p class="zhonglei">AMAZFIT华米运动手表</p>
+            <p class="money">￥799</p>
+        </li>
+        <li class="phone">
+            <p class="ah">
+                <img src="images/xing.png" alt="">
+                <span>红外遥控</span>
+            </p>
+            <span class="phone-tu"><img src="images/yinx.webp" alt=""></span>
+            <p class="zhonglei">空课kk-Mini Pro智能微插</p>
+            <p class="money">￥79</p>
+        </li>
+    </ul>
+    <ul class="star">
+        <li class="phone">
+            <p class="ah">
+                <img src="images/xing.png" alt=""><span>可以装进口袋的影院</span>
+            </p>
+            <span class="phone-tu"><img src="images/hezi.webp" alt=""></span>
+            <p class="zhonglei">PaPa口袋影院</p>
+            <p class="money">￥1299 <span>￥1499</span><span>直降</span></p>
+        </li>
+        <li class="phone">
+            <p class="ah">
+                <img src="images/xing.png" alt="">
+                <span>眼部放松</span>
+            </p>
+            <span class="phone-tu"><img src="images/yan.webp" alt=""></span>
+            <p class="zhonglei">倍轻松isee360眼部按摩器</p>
+            <p class="money">￥429</p>
+        </li>
+    </ul>
+    <!--新品上市-->
+    <div class="mingxindp">
+        <em>一</em>
+        <span>新品上市</span>
+        <em>一</em>
+    </div>
+    <div class="big-box">
+        <div class="new1">
+            <img src="images/new1.webp" alt="">
+        </div>
+        <div class="newzi">
+            <p>360手机N4A全网通流光金</p>
+            <p>4000mAh大电池3G+32GB大内存360OS2.0涡轮闪充1300万摄像头 指纹智键</p>
+        </div>
+    </div>
+    <div class="big-box">
+       <div class="new1">
+           <img src="images/o2.webp" alt="">
+       </div>
+       <div class="newzi">
+           <p>o2+车载空气净化器DM2</p>
+           <p>4重过滤360持续净化 专业对抗废弃 为自由呼吸而生</p>
+       </div>
+   </div>
+    <div class="big-box">
+        <div class="new1">
+            <img src="images/mao.webp" alt="">
+
+        </div>
+        <div class="newzi">
+            <p>小猫只能管家</p>
+            <p>插座上的只能生活，随时随地掌握一切，生活中的细节，才是你对生活品质的追求</p>
+        </div>
+    </div>
+    <div class="big-box">
+        <div class="new1">
+            <img src="images/shou.webp" alt="">
+            <div class="kuai">￥799</div>
+        </div>
+        <div class="newzi">
+            <p>Misfit 智能手环(玫瑰金)</p>
+            <p>插座上的只能生活，随时随地掌握一切，生活中的细节，才是你对生活品质的追求</p>
+        </div>
+    </div>
+    <!--手机及配件-->
+    <div class="mingxindp">
+        <em>一</em>
+        <span>
+            手机及配件
+        </span>
+        <em>一</em>
+    </div>
+    <div class="new1">
+        <img src="images/peijian.webp" alt="">
+    </div>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/01.webp" alt="">
+            </div>
+            <span class="yi">360手机N4S</span>
+            <span class="er">5000毫安时电池 可用两天</span>
+            <span>￥1199</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/02.webp" alt="">
+            </div>
+            <span class="yi">360手机f4高配版</span>
+            <span class="er">2G+32GB多色可选</span>
+            <p class="san">￥1299 <span>￥799</span><span>直降100</span></p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/03.webp" alt="">
+            </div>
+            <span class="yi">360酷跑蓝牙耳机</span>
+            <span class="er">亲肤材质长续航防脱落</span>
+            <span>￥179</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/04.webp" alt="">
+            </div>
+            <span class="yi">360奇酷头戴式耳机</span>
+            <span class="er">可折叠有线无线双链接</span>
+            <p class="san">￥119 <span>￥129</span><span>秒杀</span></p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/05.webp" alt="">
+            </div>
+            <span class="yi">360奇酷移动电源</span>
+            <span class="er">进口芯片名片大小大容量</span>
+            <span>￥69</span>
+        </li>
+    </ul>
+    <!--智能家居-->
+    <div class="mingxindp">
+        <em>一</em>
+        <span>
+            智能家居
+        </span>
+        <em>一</em>
+    </div>
+    <div class="new1">
+        <img src="images/smart.webp" alt="">
+    </div>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/s1.webp" alt="">
+            </div>
+            <span class="yi">控客kk-Mini k 智能微插</span>
+            <span class="er">智能微插 远程控制家电 智能插座</span>
+            <span>￥49</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/s2.webp" alt="">
+            </div>
+            <span class="yi">木薯肌肤检测仪2.0</span>
+            <span class="er">检测肌肤水分 美肤神器</span>
+            <p class="san">￥259</p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/s3.webp" alt="">
+            </div>
+            <span class="yi">爱拼图(ipinto)智能水杯</span>
+            <span class="er">你的个人饮水小管家</span>
+            <span>￥399</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/s4.webp" alt="">
+            </div>
+            <span class="yi">linbell G2自发电无线门铃</span>
+            <span class="er">无需电池 永久使用 信号强劲</span>
+            <p class="san">￥68</p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/s5.webp" alt="">
+            </div>
+            <span class="yi">aiyabrush声波电动牙刷</span>
+            <span class="er">一键皓齿 智能呵护 满足不同口腔需求</span>
+            <span>￥329</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/s6.webp" alt="">
+            </div>
+            <span class="yi">浦桑尼克 智能扫地机器人</span>
+            <span class="er">智能定位 扫地拖地一体机</span>
+            <p class="san">￥2399</p>
+        </li>
+    </ul>
+    <!--智能车品-->
+    <div class="mingxindp">
+        <em>一</em>
+        <span>
+            智能车品
+        </span>
+        <em>一</em>
+    </div>
+    <div class="new1">
+        <img src="images/che.webp" alt="">
+    </div>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/c1.webp" alt="">
+            </div>
+            <span class="yi">o2+车载空气净化器DM2</span>
+            <span class="er">4重过滤360持续净化 专业对抗废气</span>
+            <span>￥199</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/c2.webp" alt="">
+            </div>
+            <span class="yi">360骑卫士GPS定位器1代</span>
+            <span class="er">电动车防盗神器 追踪定位/智能提醒/骑车保险</span>
+            <p class="san">￥199</p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/c3.webp" alt="">
+            </div>
+            <span class="yi">米其林4387ML车载充气泵</span>
+            <span class="er">4重过滤360持续净化 专业对抗废气</span>
+            <span>￥199</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/c4.webp" alt="">
+            </div>
+            <span class="yi">喜马拉雅好声音随车听金属版</span>
+            <span class="er">无需安装 即插即用 1秒升级您的爱车</span>
+            <p class="san">￥298</p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/05.webp" alt="">
+            </div>
+            <span class="yi">AutoBot智能车载空气净化器 钛白色</span>
+            <span class="er">安全陪护 双USB接口 解决车充被占用问题!</span>
+            <span>￥299</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/c6.webp" alt="">
+            </div>
+            <span class="yi">3M PN20018 5合1燃油系统清洁添加剂 5瓶装</span>
+            <span class="er">减少排放 防腐防锈 改善雾化 保护发动机</span>
+            <p class="san">￥189 <span>￥239</span><span>直降</span></p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/c7.webp" alt="">
+            </div>
+            <span class="yi">好孩子儿童汽车安全座椅-红色</span>
+            <span class="er">五点式安全带 全方位保护</span>
+            <p class="san">￥629<span>￥699</span><span>直降</span></p>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/c8.webp" alt="">
+            </div>
+            <span class="yi">3M浓缩型雨刷精8016(五瓶装)</span>
+            <span class="er">还你清晰的驾驶视线</span>
+            <span>￥59</span>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/c10.webp" alt="">
+            </div>
+            <span class="yi">3M 魔力水晶蜡 PN39326</span>
+            <span class="er">持久光亮 深层润泽 防紫外线</span>
+            <p class="san">￥49<span>￥59</span><span>直降</span></p>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/c9.webp" alt="">
+            </div>
+            <span class="yi">风王车载吸尘器充气泵二合一6023黑色</span>
+            <span class="er">轻松清理车内空间</span>
+            <p class="san">￥129<span>￥169</span><span>直降</span></p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/c11.webp" alt="">
+            </div>
+            <span class="yi">卡饰社粒粒风口香球(蓝色)</span>
+            <span class="er">持久光亮 深层润泽 防紫外线</span>
+            <p class="san">￥39<span>￥69</span><span>直降</span></p>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/c12.webp" alt="">
+            </div>
+            <span class="yi">云马C1智行电单车 雅典黑</span>
+            <span class="er">下单送原装配件,打气筒</span>
+            <span>￥2399</span>
+        </li>
+    </ul>
+    <!--智能穿戴-->
+    <div class="mingxindp">
+        <em>一</em>
+        <span>
+            智能穿戴
+        </span>
+        <em>一</em>
+    </div>
+    <div class="new1">
+        <img src="images/cd.webp" alt="">
+    </div>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/cd1.webp" alt="">
+            </div>
+            <span class="yi">德赛Fitband F1智能手环</span>
+            <span class="er">心率检测睡眠健康运动手表</span>
+            <span>￥169</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/cd2.webp" alt="">
+            </div>
+            <span class="yi">Ticwatch 2 智能手表</span>
+            <span class="er">悦动系列 黑色硅胶表带</span>
+            <p class="san">￥999</p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/cd3.webp" alt="">
+            </div>
+            <span class="yi">SIXPAD 腹部专用健身仪</span>
+            <span class="er">收腹机 智能健身 锻炼肌肉</span>
+            <span>￥1588</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/cd4.webp" alt="">
+            </div>
+            <span class="yi">防丢贴片2片装</span>
+            <span class="er">一键寻物 智能提醒 双向防丢</span>
+            <p class="san">￥99 <span>￥179</span><span>直降</span></p>
+        </li>
+    </ul>
+    <!--影音娱乐-->
+    <div class="mingxindp">
+        <em>一</em>
+        <span>
+            影音娱乐
+        </span>
+        <em>一</em>
+    </div>
+    <div class="new1">
+        <img src="images/yy.webp" alt="">
+    </div>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/yy1.webp" alt="">
+            </div>
+            <span class="yi">坚果P1智能家庭影院</span>
+            <span class="er">3D巨幕 HIFI级音效</span>
+            <span>￥2699</span>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/yy2.webp" alt="">
+            </div>
+            <span class="yi">黑爵极客ＡＫ３３全背光版机械键盘</span>
+            <span class="er">机械手感　竞技极客之选</span>
+            <p class="san">￥99 <span>￥179</span><span>直降</span></p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/yy3.webp" alt="">
+            </div>
+            <span class="yi">PaPa 口袋影院</span>
+            <span class="er">可以装进口袋里的影院</span>
+            <p class="san">￥1299 <span>￥1499</span><span>直降</span></p>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/yy4.webp" alt="">
+            </div>
+            <span class="yi">黑爵Q7 有线游戏背光鼠标</span>
+            <span class="er">黑爵鼠标 狙击利器</span>
+            <p class="san">￥69 <span>￥89</span><span>直降</span></p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/yy5.webp" alt="">
+            </div>
+            <span class="yi">咚咚智能音响A1</span>
+            <span class="er">更好音质 语音感应智能音响</span>
+            <p class="san">￥399 <span>￥499</span><span>直降</span></p>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/yy6.webp" alt="">
+            </div>
+            <span class="yi">新游无线智能游戏手柄</span>
+            <span class="er">支持多系统 双马达震动</span>
+            <span class="san">￥119</span>
+        </li>
+    </ul>
+    <!--电脑/游戏-->
+    <div class="mingxindp">
+        <em>一</em>
+        <span>
+            电脑/游戏
+        </span>
+        <em>一</em>
+    </div>
+    <div class="new1">
+        <img src="images/yx.webp" alt="">
+    </div>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/yx1.webp" alt="">
+            </div>
+            <span class="yi">新智能游戏手柄</span>
+            <span class="er">支持ios/Android/Windows</span>
+            <span class="san">￥119</span>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/yx2.webp" alt="">
+            </div>
+            <span class="yi">NSIST电竞眼镜</span>
+            <span class="er">德国设计 防蓝光和辐射</span>
+            <p class="san">￥109<span>￥169</span><span>直降</span></p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/yx3.webp" alt="">
+            </div>
+            <span class="yi">刀客IPS屏纤薄笔记本</span>
+            <span class="er">全金属外观 羽化纤维</span>
+            <p class="san">￥2899 <span>￥3299</span><span>直降</span></p>
+        </li>
+        <li class="shouji1">
+            <div class="cptu">
+                <img src="images/yx4.webp" alt="">
+            </div>
+            <span class="yi">友练智能羽毛球拍分析传感器</span>
+            <span class="er">实时记录打球数据、3D轨迹回放打球数据</span>
+            <span class="san">￥119</span>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/yx5.webp" alt="">
+            </div>
+            <span class="yi">黑爵3色背光键盘</span>
+            <span class="er">19键同击无冲 重金属底板</span>
+            <p class="san">￥79<span>￥99</span><span>直降</span></p>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/yx6.webp" alt="">
+            </div>
+            <span class="yi">技德高清络盒子 </span>
+            <span class="er">安卓电脑 2G+16G</span>
+            <p class="san">￥359<span>￥399</span><span>直降</span></p>
+        </li>
+    </ul>
+    <!--无人机/机器人-->
+    <div class="mingxindp">
+        <em>一</em>
+        <span>
+            无人机/机器人
+        </span>
+        <em>一</em>
+    </div>
+    <div class="new1">
+        <img src="images/jqr.webp" alt="">
+    </div>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/jqr1.webp" alt="">
+            </div>
+            <span class="yi">普宇专业航拍无人机</span>
+            <span class="er">四轴1080p相机 折叠设计</span>
+            <p class="san">￥3999<span>￥4588</span><span>直降</span></p>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/jqr2.webp" alt="">
+            </div>
+            <span class="yi">派宝U1机器人</span>
+            <span class="er">新一代家庭移动机器人</span>
+            <span class="san">￥2699</span>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/jqr4.webp" alt="">
+            </div>
+            <span class="yi">疆域智能无人机</span>
+            <span class="er">4K高清拍摄 定点悬停</span>
+            <span class="san">￥1399</span>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/jqr3.webp" alt="">
+            </div>
+            <span class="yi">飞科FC9602扫地机器人</span>
+            <span class="er">一键启动 四位一体 智能拖地</span>
+            <span class="san">￥1199</span>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/jqr5.webp" alt="">
+            </div>
+            <span class="yi">布丁S智能机器机</span>
+            <span class="er">智能对话 幼教陪护 百科查询</span>
+            <span class="san">￥999</span>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/jqr6.webp" alt="">
+            </div>
+            <span class="yi">优必选智能玩具机器人</span>
+            <span class="er">春晚机器人</span>
+            <span class="san">￥2999</span>
+        </li>
+    </ul>
+    <!--母婴玩具--->
+    <div class="mingxindp">
+        <em>一</em>
+        <span>
+            母婴玩具
+        </span>
+        <em>一</em>
+    </div>
+    <div class="new1">
+        <img src="images/wj.webp" alt="">
+    </div>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/wj1.webp" alt="">
+            </div>
+            <span class="yi">小鸡叫叫早教智能玩具</span>
+            <span class="er">3-6岁宝宝的故事小管家</span>
+            <span class="san">￥299</span>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/wj2.webp" alt="">
+            </div>
+            <span class="yi">小忆智能机器人</span>
+            <span class="er">宝宝学习的小老师</span>
+            <span class="san">￥2999<span>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/wj5.webp" alt="">
+            </div>
+            <span class="yi">聚睛AR神奇绘本</span>
+            <span class="er">一秒变神笔马良</span>
+            <span class="san">￥196</span>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/wj6.webp" alt="">
+            </div>
+            <span class="yi">凡米小豆嘘嘘神奇</span>
+            <span class="er">让纸尿裤一秒变智能</span>
+            <p class="san">￥99<span>￥199</span><span>直降</span></p>
+        </li>
+    </ul>
+    <ul class="shouji2">
+        <li class="shouji1 liwai">
+            <div class="cptu">
+                <img src="images/wj3.webp" alt="">
+            </div>
+            <span class="yi">小白熊婴儿电粥锅</span>
+            <span class="er">天然陶瓷内胆易清洗</span>
+            <span class="san">￥75</span>
+        </li>
+        <li class="shouji">
+            <div class="cptu">
+                <img src="images/wj4.webp" alt="">
+            </div>
+            <span class="yi">wonsee智能奶瓶</span>
+            <span class="er">智能饮奶水量提醒</span>
+            <span class="san">￥299</span>
+        </li>
+    </ul>
+
+
+    <div class="mingxindp">
+        <em>一</em>
+        <span>
+            点击查看更多商品&gt;&gt;
+        </span>
+        <em>一</em>
+    </div>
+    <div class="footer">
+        <div class="f1">
+            <div class="yuan">7</div>
+            <p>七天无理由退货</p>
+        </div>
+        <div class="f1">
+            <div class="yuan">15</div>
+            <p>15天免费换货</p>
+        </div>
+        <div class="f1">
+            <div class="yuan">包</div>
+            <p>满99元包邮</p>
+        </div>
+    </div>
+    <div class="rexian">
+        <span>客服热线：400-6822-360 周一到周日 9:00-18:00</span>
+    </div>
+    <div class="fb">sdg</div>
+</body>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 5000,
+        autoplayDisableOnInteraction: false
+    });
+</script>
+</html>
