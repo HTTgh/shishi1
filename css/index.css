@@ -511,3 +511,42 @@ header{
     width: 100%;
     height: 178px;
 }
+
+/*tianmao*/
+.jiarong{
+    width: 260px;
+    height: 16px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: blue;
+    float: right;
+    margin-top: 15px;
+
+}
+.jiarongli{
+    width:260px;
+    height: 48px;
+    overflow: hidden;
+    position: absolute;
+
+}
+.yunfu{
+    width: 260px;
+    height: 16px;
+    float: left;
+    text-align: center;
+    line-height: 16px;
+
+    background: red;
+}
+.bys{
+    width: 260px;
+    height: 16px;
+    color: #666666;
+    font-size:10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
