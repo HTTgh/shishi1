@@ -544,4 +544,7 @@ header{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.ts{
+    border-right: 1px solid #EAEAEA;
+}
 
